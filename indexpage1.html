@@ -21,34 +21,41 @@
     </div>
     <button type="submit" class="btn btn-dark mb-2" onclick="getJson()">Submit</button>
   </form>
+
+  <!-- Card1 -->
     <div class="row justify-content-center" id="vertical-align">
-      <table class="table table-bordered table-dark table-hover" style="width: 500px; height: 200px; margin-top: 80px;">
-        <thead>
-            <tr>
-            <th scope="col">Current Weather</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr id="row1">
-            <th scope="row">High</th>           
-            </tr>
-            <tr id="row2">
-            <th scope="row"></th>            
-            </tr>
-            <tr id="row3">
-            <th scope="row">Low</th>           
-            </tr>
-            <tr id="row4">
-            <th scope="row"></th>           
-            </tr>
-            <tr id="row5">
-            <th scope="row">Forecast</th>            
-            </tr>
-            <tr id="row6">
-            <th scope="row"></th>           
-            </tr>    
-        </tbody>
-    </table>
+      <div class="card text-center bg-secondary mb-3" id="card1">
+        <div class="card-header" style="color: white;">
+          High Temp:
+        </div>
+        <div class="card-body">
+            <p class="card-title" id="mac" style="color: white;"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card2 -->
+    <div class="row justify-content-center" id="vertical-align">
+      <div class="card text-center bg-secondary mb-3" id="card1">
+        <div class="card-header" style="color: white;">
+          Low Temp:
+        </div>
+        <div class="card-body">
+            <p class="card-title" id="and" style="color: white;"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card3 -->
+    <div class="row justify-content-center" id="vertical-align">
+      <div class="card text-center bg-secondary mb-3" id="card1">
+        <div class="card-header" style="color: white;">
+          Description :
+        </div>
+        <div class="card-body">
+            <p class="card-title" id="cheese" style="color: white;"></p>
+        </div>
+      </div>
     </div>
 </div>
 

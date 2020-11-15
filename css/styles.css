@@ -1,0 +1,15 @@
+#vertical-align {
+    position: relative;
+    top:225px ;
+}
+
+#enter-city{
+    position: relative;
+    top: 200px;
+}
+
+html, body {
+    background: url(/images/sunny.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-size: 1920px 1080px;
+}

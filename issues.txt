@@ -1,0 +1,18 @@
+I really couldnt figure out what I am doing wrong.
+I literally used the Race car API as a reference 
+and Im getting a fetch error as well as a Dev Tools error that I had not been 
+getting in the Race Car Project.
+
+The Dev Tools error gives me the perception that my HTML file isnt being 
+read properly. 
+
+Not sure if its because I am using boot strap or using it improperly. 
+
+Im not sure whats going on with my fetch request to cause an error. 
+
+I did the best that I could. Also I wanted to focus on getting data to populate in
+one of my rows and then I would fill the following rows based off of how I coded the original
+one. 
+
+At this point I dont want to stress myself out even more and keep running around
+in circles if I dont know what the issues are. 

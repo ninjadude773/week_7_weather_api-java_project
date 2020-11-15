@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="js/main.js"></script>
+<title>Weather Project Coding Temple</title>
+</head>
+<body>
+
+<div class="container" style="width: 390px;">
+  <form class="form-inline" id="enter-city">
+    <div class="form-group mx-sm-3 mb-2" >
+      <label for="input-city" class="sr-only">Enter City:</label>
+      <input type="text" class="form-control" id="input-city" placeholder="City:">
+    </div>
+    <button type="submit" class="btn btn-dark mb-2" onclick="getJson()">Submit</button>
+  </form>
+    <div class="row justify-content-center" id="vertical-align">
+      <table class="table table-bordered table-dark table-hover" style="width: 500px; height: 200px; margin-top: 80px;">
+        <thead>
+            <tr>
+            <th scope="col">Current Weather</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row1">
+            <th scope="row">High</th>           
+            </tr>
+            <tr id="row2">
+            <th scope="row"></th>            
+            </tr>
+            <tr id="row3">
+            <th scope="row">Low</th>           
+            </tr>
+            <tr id="row4">
+            <th scope="row"></th>           
+            </tr>
+            <tr id="row5">
+            <th scope="row">Forecast</th>            
+            </tr>
+            <tr id="row6">
+            <th scope="row"></th>           
+            </tr>    
+        </tbody>
+    </table>
+    </div>
+</div>
+
+  <!--Table-->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

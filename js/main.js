@@ -1,6 +1,6 @@
 function getJson() {
     let city = document.querySelector('#city').value;
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c941c9ca854444abd337e4baa9e01cb5`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c941c9ca854444abd337e4baa9e01cb5`)
     .then(response => response.json())
     .then(data => {
         console.log(data)
